@@ -38,6 +38,7 @@ public class VariablesDataTypesOperatorsTest {
         result = VariablesDataTypesOperators.multiplication(-5, 5);
         Assert.areEqual(-25, result, 'Incorrect negative multiplication result');
     }
+        
 
     @IsTest
     static void testDivision() {
@@ -182,4 +183,5 @@ public class VariablesDataTypesOperatorsTest {
         Assert.areEqual(22.0, VariablesDataTypesOperators.calculateTotalCost(10, 2, 0.1), 'Incorrect calculateTotalCost result');
         Assert.areEqual(0.0, VariablesDataTypesOperators.calculateTotalCost(0, 0, 0.0), 'Incorrect calculateTotalCost result');
     }
+    
 }
